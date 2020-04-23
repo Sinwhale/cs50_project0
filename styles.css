@@ -1,12 +1,17 @@
+body {
+  background-color: black;
+}
 h1 {
   text-align:center;
-  color:#005163;
+  color:white;
+  font-family:"Courier New", monospace;
 }
 h2 {
   text-decoration: underline;
   text-align:left;
   margin-left:300px;
   color:#005163;
+  font-family:"Courier New", monospace;
 }
 h3 {
   margin-left:100px;
@@ -14,10 +19,12 @@ h3 {
   text-align:center;
   color:#005163;
   padding: 0px;
+  font-family:"Courier New", monospace;
 }
 h4 {
   text-align:center;
   color:#005163;
+  font-family:"Courier New", monospace;
 }
 a:link {
   color:#005163;
@@ -34,6 +41,7 @@ a:active {
 #links {
   text-decoration: underline overline;
   color:#005163;
+  font-family:"Courier New", monospace;
   font-size: 23px;
   font-weight: bold;
   width:50%;
@@ -42,11 +50,13 @@ a:active {
   margin-right:auto;
 }
 #table1 {
-  border: 2px solid black;
+  border: 2px solid grey;;;
   border-collapse: collapse;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  font-family:"Courier New", monospace;
+  color:grey;
 }
 #table2 {
   text-decoration: underline;
@@ -56,21 +66,26 @@ a:active {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+    font-family:"Courier New", monospace;
 }
 .td1 {
-  border: 1px solid black;
+  border: 1px solid grey;
   text-align: center;
+    font-family:"Courier New", monospace;
 }
 .title {
   font-size:40px;
+    font-family:"Courier New", monospace;
 }
 .td2 {
   text-align: center;
   width:25%;
+    font-family:"Courier New", monospace;
 }
 .td3 {
   text-align: center;
   width:25%;
+    font-family:"Courier New", monospace;
 }
 .image_center {
   display: block;
@@ -90,4 +105,5 @@ a:active {
   background-color:yellow;
   border-top: 1px solid black;
   text-align: center;
+    font-family:"Courier New", monospace;
 }
